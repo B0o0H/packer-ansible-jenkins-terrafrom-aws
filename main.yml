@@ -1,0 +1,6 @@
+---
+- name: Install all dependencies to start Jenkins
+  hosts: all
+  become: true
+  roles:
+    - jenkins
